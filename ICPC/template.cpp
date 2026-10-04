@@ -15,7 +15,6 @@ int main() {
         std::cin >> a[i];
     }
 
-    // ТВОЙ КОД ЗДЕСЬ:
     std::sort(a.begin(), a.end());
     std::cout << a[n-1] - a[0] <<"\n";
 
