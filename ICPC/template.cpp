@@ -16,7 +16,7 @@ int main() {
     }
 
     std::sort(a.begin(), a.end());
-    std::cout << a[n-1] - a[0] <<"\n";
+    std::cout << a[n-1] - a[0] << "\n";
 
     return 0;
 }
